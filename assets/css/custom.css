@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+
+.page-width{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.featureSection{
+    background-color: #f8caba0a;
+    padding: 100px 0;
+} 
+
+ .flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+} 
+
+.feature_top {
+    text-align: center;
+} 
+
+.feature_top h2{
+    font-size: 47px;
+    line-height: 55px;
+    color: #313438;
+    font-weight: 500;
+    margin-bottom: 15px;
+} 
+    
+.feature_top p{
+    font-size: 16px;
+    line-height: 23px;
+    color: #313438;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.left-item{
+    flex-basis: 35%;
+    max-width: 35%;
+    padding: 15px;
+}
+
+.right-item{
+    flex-basis: 65%;
+    max-width: 65%;
+    padding: 15px;
+    gap: 30px;
+}
+
+.feature_item-1{
+    background-color: #C2BDF9;
+    padding: 40px;
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.feature_item-2{
+    background-color: #F8CABA;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.feature_item-3{
+    background-color: #BBD7FE;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.feature_item-2 div,
+.feature_item-3 div{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.feature_item-2 img,
+.feature_item-3 img{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.feature_item-1 h3,
+.feature_item-2 h3,
+.feature_item-3 h3{
+    font-size: 35px;
+    line-height: 40px;
+    color: #313438;
+    font-weight: 400;
+    
+}
+
+.feature_item-1 p,
+.feature_item-2 p,
+.feature_item-3 p{
+    font-size: 16px;
+    line-height: 25px;
+    color: #313438;
+    font-weight: 300;
+    margin: 15px 0;
+}
+
+.feature_item-1 a,
+.feature_item-2 a,
+.feature_item-3 a{
+    font-size: 16px;
+    line-height: 25px;
+    color: #313438;
+    font-weight: 400;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    display: inline-block;
+}
